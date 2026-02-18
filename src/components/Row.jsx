@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchBySearch } from "../services/api";
-import MovieCard from "./MovieCard";
+import MovieCard from "./Moviecard";
 import "./Row.css";
 
 function Row({ title, searchTerm }) {
@@ -43,3 +43,4 @@ function Row({ title, searchTerm }) {
 }
 
 export default Row;
+
