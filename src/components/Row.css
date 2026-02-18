@@ -1,0 +1,29 @@
+.row {
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.row h2 {
+  margin-bottom: 15px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+
+.row_posters::-webkit-scrollbar {
+  height: 6px;
+}
+
+.row_posters::-webkit-scrollbar-thumb {
+  background: #e50914;
+  border-radius: 10px;
+}
+
+.no_movies {
+  opacity: 0.6;
+  font-size: 14px;
+}
