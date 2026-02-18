@@ -1,14 +1,14 @@
-import "./MovieCard.css";
+import "./Moviecard.css";
 
-function MovieCard({ movie }) {
+function Moviecard({ movie }) {
   if (!movie.Poster || movie.Poster === "N/A") {
     return null;   // Skip movies without poster
   }
 
   return (
-    <div className="movieCard">
+    <div className="Moviecard">
       <img
-        className="movieCard_img"
+        className="Moviecard_img"
         src={movie.Poster}
         alt={movie.Title}
         onError={(e) => {
@@ -19,4 +19,5 @@ function MovieCard({ movie }) {
   );
 }
 
-export default MovieCard;
+export default Moviecard;
+
