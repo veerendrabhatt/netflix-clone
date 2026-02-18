@@ -33,7 +33,7 @@ function Row({ title, searchTerm }) {
         <div className="row_posters">
           {movies.map((movie) =>
             movie.Poster !== "N/A" ? (
-              <MovieCard key={movie.imdbID} movie={movie} />
+              <Moviecard key={movie.imdbID} movie={movie} />
             ) : null
           )}
         </div>
@@ -43,5 +43,6 @@ function Row({ title, searchTerm }) {
 }
 
 export default Row;
+
 
 
